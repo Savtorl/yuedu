@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>悦读 | 文章详情</title>
+		<link rel="stylesheet" type="text/css" href="css/init.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>	
+		<div class="main personal">
+			<div class="top clearfix">
+				<a href="ArticleList.html#userSetting">
+					<b class="logoA">APIS</b><span class="logoB">悦读项目</span>
+				</a>
+				<div class="information gt">
+					<div class="not_login">
+						<a href="sign.html#sign-top">
+							登录
+						</a>
+						<a href="sign.html#sign-top">
+							注册
+						</a>
+                    </div>
+                    <div class="user" style="display:none">
+						<a href="" name="a1" style="display:inline-block">
+							<img src="images/1.jpg" class="userHead">
+						</a>
+						<span class="userName"></span>
+						<i class="arrow"></i>						
+						<div class="user-list">
+							<div class="triangle"></div>
+							<ul>
+								<li>
+									<a href="userProfiles.html#userMsg"><img src="images/icon_user.png">个人中心</a>
+								</li>
+								<li>
+									<a href="userSetting.html#userSetting"><img src="images/icon_setting.png">账户设置</a>
+								</li>
+								<li>
+									<a href="login.html#login"><img src="images/icon_exit.png">退出登录</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="write">
+                        <a href="Writing.html#Writing-top">
+                            <img src="images\icon_write.png">
+                            <span>写文章</span>
+                        </a>
+					</div>
+				</div>
+			</div>
+			<div class="details">
+				<!-- 动态添加文章详情页 -->
+				<div class="wenzhang"></div>					
+				<div class="article_reviews">
+					<div class="review-title">
+						文章点评
+					</div>
+					<form action="" method="post" class="clearfix" >
+						<textarea name="" id="areatxt" placeholder="我有话要说……"></textarea>
+						<button type="button" class="gt" id="comment">提 交</button>
+					</form>
+				</div>
+				<div class="new_reviews">
+					<div class="n_r-title">
+						最新评论
+					</div>
+					<div class="review"></div>					
+				</div>
+			</div>
+		</div>
+			<div class="copyRight">
+					Copyright © 2017 apis.sh All Rights Reserved | 陕ICP备15013925号-3
+			</div>
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/moment.js/2.20.1/moment.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/sharewechat.js"></script>
+</html>

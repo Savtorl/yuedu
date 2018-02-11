@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>悦读 | 文章列表</title>
+		<link rel="stylesheet" type="text/css" href="css/init.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="main personal">
+			<div class="top clearfix" id="userSetting">
+				<a href="ArticleList.html#userSetting">
+					<b class="logoA">APIS</b><span class="logoB">悦读项目</span>
+				</a>
+				<div class="information gt">
+					<div class="not_login">
+						<a href="sign.html#sign-top">
+							登录
+						</a>
+						<a href="sign.html#sign-top">
+							注册
+						</a>
+                    </div>
+                    <div class="user" style="display:none">
+						<a href="" name="a1" style="display:inline-block">
+							<img src="images/1.jpg" class="userHead">
+						</a>
+						<span class="userName"></span>
+						<i class="arrow"></i>						
+						<div class="user-list">
+							<div class="triangle"></div>
+							<ul>
+								<li>
+									<a href="userProfiles.html#userMsg"><img src="images/icon_user.png">个人中心</a>
+								</li>
+								<li>
+									<a href="userSetting.html#userSetting"><img src="images/icon_setting.png">账户设置</a>
+								</li>
+								<li>
+									<a href="login.html#login"><img src="images/icon_exit.png">退出登录</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="write">
+                        <a href="Writing.html#Writing-top">
+                            <img src="images/icon_write.png">
+                            <span>写文章</span>
+                        </a>
+					</div>
+				</div>
+			</div>
+			<div class="article">
+				<div id="BigDiv">
+                </div>
+                <div class="loading">
+                    <img src="images/icon_loading.png">
+					<span>正在加载</span>					
+                </div>
+                <div id="backTop">
+					<img src="images/icon_backtop.png">
+				</div>
+			</div>
+            <div class="copyRight">
+                    Copyright © 2017 apis.sh All Rights Reserved | 陕ICP备15013925号-3
+            </div>
+		</div>		
+	</body>
+	<script src="https://cdn.bootcss.com/lodash.js/4.17.5/lodash.js"></script>
+	<script src="https://cdn.bootcss.com/moment.js/2.20.1/moment.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/homelist.js"></script>
+</html>

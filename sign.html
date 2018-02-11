@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>悦读 | 注册</title>
+        <link rel="stylesheet" href="css/init.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="main pageLogin">
+            <div class="top" id="sign-top">
+                <a href="ArticleList.html#userSetting">
+					<b class="logoA">APIS</b><span class="logoB">悦读项目</span>
+				</a>
+            </div>
+            <div class="login">
+                <div class="line-one">
+                    <a class="log-in" onclick="logIn()" id="log-in">登录</a>
+                    <a class="sign-in" onclick="signIn()" id="sign-in">注册</a>
+                </div>
+                <form>
+                    <div id="LogIn" style="display:none">
+                            <input type="number" autocomplete="off" name="userPhone" id="LogPhone" maxlength="11" placeholder="请输入手机号码" autocomplete="off"><br>
+                            <input type="password" name="userPwd" id="LogPwd" placeholder="请输入6~32位密码"><br>
+                            <input type="password" name="userPwd2" id="LogPwd2" placeholder="重复密码"><br>
+                            <button type="button" value="" class="btnSubmit" id="LoginSubmit">登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+                            <div class="clearfix">
+                                <a class="forget" href="findPwd.html#FindPwd" >忘记密码？</a>
+                            </div>
+                            <a class="had" href="login.html#login-top">还没有注册APIS?　　马上注册！</a>
+                    </div>
+                    <div id="SignIn">
+                            <input type="number" autocomplete="off" name="userPhone" id="userPhone" maxlength="11" placeholder="请输入手机号码" autocomplete="off"><br>
+                            <input type="text" autocomplete="off" name="test" id="note" class="test" placeholder="请输入短信验证码"><button  type="button" id="getCode" class="getCode" value="获取验证码">获取验证码</button><br>
+                            <input type="password" name="userPwd" id="userPwd" placeholder="请输入6~32位密码"><br>
+                            <input type="password" name="userPwd2" id="userPwd2" placeholder="重复密码"><br>
+                            <button type="button" value="" class="btnSubmit" id="btnSubmit">注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;册</button>
+                            <a class="had" href="login.html#login-top">已有账户，马上登录</a>
+                    </div>                
+                </form>
+            </div>
+            <div class="copyRight">
+                    Copyright © 2017 apis.sh All Rights Reserved | 陕ICP备15013925号-3
+            </div>
+        </div>
+    </body>    
+    <script src="js/common.js"></script>
+    <script src="js/js.js"></script>
+</html>    
